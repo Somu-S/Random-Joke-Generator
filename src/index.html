@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <div id="joke-body" class="bg-yellow-400 h-screen w-screen flex justify-center items-center">
+    <div class="bg-slate-900 p-20 flex flex-col justify-center items-center gap-5 rounded-2xl">
+      <h1 class="text-sm sm:text-lg md:text-2xl lg:text-4xl text-bold text-white text-center">
+        Random Joke Generator
+      </h1>
+      <div id="img">
+      <img src="lol.png" class="h-16 sm:h-20 md:h-40 lg:h-60">
+      </div>
+      <div id="Random-jokes-field" class="text-sm sm:text-base text-yellow-50 overflow-auto sm:max-w-xs md:max-w-sm lg:max-w-md text-center leading-7 max-h-20">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio alias nesciunt vitae illo laboriosam vel ea dicta doloribus fugit quaerat?
+      </div>
+      <div>
+        <button class="text-black bg-yellow-500 text-sm sm:text-base md:text-xl px-20 p-3 rounded-md" id="gen-btn">
+          Generate Joke
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
